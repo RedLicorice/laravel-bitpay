@@ -134,6 +134,8 @@ class CreateKeypair extends Command
             $this->network = 'https://test.bitpay.com';
         } elseif ('livenet' == $this->config['network']) {
             $this->network = 'https://bitpay.com';
+        } elseif ('custom' == $this->config['network']) {
+            $this->network = $this->config['custom_network_url'];
         } else {
             $this->network = 'https://bitpay.com';
         }

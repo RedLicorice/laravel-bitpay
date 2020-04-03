@@ -1,14 +1,20 @@
 {
     "name": "vrajroham/laravel-bitpay",
-    "description": "Bitpay wrapper for laravel",
+    "description": "Bitpay wrapper for laravel, modified for using custom btcpay server",
     "keywords": [
-        "bitapy",
+        "bitpay",
         "BTC",
         "laravel"
     ],
-    "homepage": "https://github.com/vrajroham/laravel-bitpay",
+    "homepage": "https://github.com/RedLicorice/laravel-bitpay",
     "license": "MIT",
     "authors": [
+        {
+            "name": "RedLicorice",
+            "email": "redlicorice@protonmail.com",
+            "homepage": "https://github.com/RedLicorice/",
+            "role": "Developer"
+        },
         {
             "name": "Vaibhavraj Roham",
             "email": "vaibhavraj@vrajroham.me",

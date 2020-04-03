@@ -20,6 +20,7 @@ return [
      * The default is livenet
      */
     'network' => env('BITPAY_NETWORK', 'livenet'),
+    'custom_network_url' => env('CUSTOM_NETWORK_URL', 'https://btcpay.sirkelgroup.com'),
 
     /*
      * The key_storage option allows you to specify a class for persisting and retrieving keys.
