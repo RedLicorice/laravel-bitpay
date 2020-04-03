@@ -1,5 +1,5 @@
 {
-    "name": "vrajroham/laravel-bitpay",
+    "name": "redlicorice/laravel-bitpay",
     "description": "Bitpay wrapper for laravel, modified for using custom btcpay server",
     "keywords": [
         "bitpay",
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vrajroham\\LaravelBitpay\\": "src"
+            "RedLicorice\\LaravelBitpay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vrajroham\\LaravelBitpay\\Tests\\": "tests"
+            "RedLicorice\\LaravelBitpay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vrajroham\\LaravelBitpay\\LaravelBitpayServiceProvider"
+                "RedLicorice\\LaravelBitpay\\LaravelBitpayServiceProvider"
             ],
             "aliases": {
-                "LaravelBitpay": "Vrajroham\\LaravelBitpay\\LaravelBitpayFacade"
+                "LaravelBitpay": "RedLicorice\\LaravelBitpay\\LaravelBitpayFacade"
             }
         }
     },
