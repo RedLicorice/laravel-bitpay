@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RedLicorice\\LaravelBitpay\\": "src"
+            "Vrajroham\\LaravelBitpay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RedLicorice\\LaravelBitpay\\Tests\\": "tests"
+            "Vrajroham\\LaravelBitpay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RedLicorice\\LaravelBitpay\\LaravelBitpayServiceProvider"
+                "Vrajroham\\LaravelBitpay\\LaravelBitpayServiceProvider"
             ],
             "aliases": {
-                "LaravelBitpay": "RedLicorice\\LaravelBitpay\\LaravelBitpayFacade"
+                "LaravelBitpay": "Vrajroham\\LaravelBitpay\\LaravelBitpayFacade"
             }
         }
     },
